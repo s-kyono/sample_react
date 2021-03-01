@@ -1,5 +1,7 @@
 import React from "react";
 import Click from "./Event/Click";
+import List from "./Event/List";
+
 class Button extends React.Component {
     //コンストラクト
     constructor(props) {
@@ -18,6 +20,7 @@ class Button extends React.Component {
             Activate Lasers
           </button>
           <Click name="test" value="out" />
+          <List numbers={[1, 2, 3, 4, 5]} />
         </div>
       );
     }

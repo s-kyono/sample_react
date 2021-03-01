@@ -11,6 +11,7 @@ import FormRequestName from "./components/FormRequestName";
 import EssayForm from "./components/EssayForm";
 import FlavorForm from "./components/FlavorForm";
 import Reservation from "./components/Reservation";
+import Calculator from "./components/LiftUp/Calculator";
 
 function App() {
   const test =
@@ -22,6 +23,7 @@ function App() {
   console.log(test);
   return (
     <div className="container">
+      <Calculator />
       <Hello name="ozaki" />
       <Anchor />
       <Button />

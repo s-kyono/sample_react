@@ -18,9 +18,9 @@ function App() {
 }
 ReactDOM.render(<App />, document.getElementById("root"));
 
-function interval() {
-  //APPを指定することでページ全体をレンタリング
-  ReactDOM.render(<App />, document.getElementById('root'));
-}
+// function interval() {
+//   //APPを指定することでページ全体をレンタリング
+//   ReactDOM.render(<App />, document.getElementById('root'));
+// }
 //1秒単位でレンタリングを実行
 setInterval(interval, 1000);

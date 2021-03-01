@@ -1,5 +1,5 @@
 import React from "react";
-
+import Click from "./Event/Click";
 class Button extends React.Component {
     //コンストラクト
     constructor(props) {
@@ -13,9 +13,12 @@ class Button extends React.Component {
     }
     render(){
       return (
-        <button onClick={activateLasers}>
-          Activate Lasers
-        </button>
+        <div className="button_field">
+          <button onClick={activateLasers}>
+            Activate Lasers
+          </button>
+          <Click name="test" value="out" />
+        </div>
       );
     }
 

@@ -10,7 +10,6 @@ const enabledSourceMap = MODE === "development";
 module.exports = {
   devtool: 'inline-source-map',
   mode: 'development',
-  // entry: ['./src/index.js', './src/app.js'],
   entry: './web/src/index.js',
   module: {
     rules: [

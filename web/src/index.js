@@ -5,10 +5,14 @@ import YourName from "./components/YourName";
 import TimeTick from "./components/TimeTick";
 import TextBox from "./components/TextBox";
 import Component from "./components/Component";
+import Anchor from "./components/Anchor";
+import Button from "./components/Button";
 function App() {
   return (
     <div className="container">
       <Hello name="ozaki" />
+      <Anchor />
+      <Button />
       <YourName src="img/test.jpg"/>
       <TimeTick />
       <TextBox />

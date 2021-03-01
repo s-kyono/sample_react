@@ -13,14 +13,16 @@ function App() {
       <TimeTick />
       <TextBox />
       <Component name="test" text="value" url="img/dog.png" date="2021-03-01" />
+      <TimeTick />
+      <TimeTick />
     </div>
   );
 }
 ReactDOM.render(<App />, document.getElementById("root"));
 
-function interval() {
-  //APPを指定することでページ全体をレンタリング
-  ReactDOM.render(<App />, document.getElementById('root'));
-}
+// function interval() {
+//   //APPを指定することでページ全体をレンタリング
+//   ReactDOM.render(<App />, document.getElementById('root'));
+// }
 //1秒単位でレンタリングを実行
-setInterval(interval, 1000);
+// setInterval(interval, 1000);
